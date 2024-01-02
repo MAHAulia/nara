@@ -15,9 +15,9 @@ if "%PROCESSOR_ARCHITECTURE%"=="x86" (
 
 REM Set the download URL based on the architecture
 if "%ARCH%"=="32" (
-    SET "DOWNLOAD_URL=https://github.com/MAHAulia/nara/releases/download/v0.0.1/nara-win-32.exe"
+    SET "DOWNLOAD_URL=https://drive.google.com/file/d/1pG8JA1b_HQRt-1oPEU0p42O_Mv0r_Zo-/view?usp=sharing"
 ) else if "%ARCH%"=="64" (
-    SET "DOWNLOAD_URL=https://github.com/MAHAulia/nara/releases/download/v0.0.1/nara-win-64.exe"
+    SET "DOWNLOAD_URL=https://drive.google.com/file/d/1eXLVOWL1NIcDNs2Hkc83a8vvqad5SVhA/view?usp=sharing"
 ) else (
     echo Error: Unsupported architecture.
     exit /b 1
